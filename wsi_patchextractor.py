@@ -16,10 +16,10 @@ import matplotlib.pyplot as plt
 class extractPatch:
 
     def __init__(self):
-        self.file_location = '/Users/sanforth/Desktop/SVS_files_xml'
+        self.file_location = '~/Desktop/SVS_files_xml'
         self.image_file = 'TCGA-HQ-A2OF-01A-01-TSA_died.svs'
         self.xml_file = 'TCGA-HQ-A2OF-01A-01-TSA_died.xml'
-        self.save_location = '/Users/sanforth/Desktop/save_tiles'
+        self.save_location = '~/Desktop/save_tiles'
         self.save_name = 'TCGA-HQ-A2OF-01A-01-TSA'
         self.mag_extract = [5,10,20] # specify which magnifications you wish to pull images from
         self.save_image_size = 300   # specify image size to be saved (note this is the same for all magnifications)
