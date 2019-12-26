@@ -13,6 +13,9 @@ import pandas as pd
 from skimage import draw
 import matplotlib.pyplot as plt
 
+#Authors:
+#@t_sanf, @DrSHarmon, adopting code from py_wsi by @ysbecca 
+
 class extractPatch:
 
     def __init__(self):
